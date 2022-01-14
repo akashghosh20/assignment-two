@@ -67,13 +67,13 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   margin: 0 auto;
+  margin-left: 20px;
 }
 .product {
   border: 1px solid rgb(245, 166, 166);
   border-radius: 10px;
   padding: 10px;
   width: 350px;
-  margin-left: 20px;
 }
 .product img {
   width: 350px;
