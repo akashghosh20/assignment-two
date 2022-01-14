@@ -109,6 +109,32 @@ main {
 .see-more a {
   text-decoration: none;
 }
+/*---------------------------- extra part css-----------------
+-------------------------------------------------------------- */
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-left img {
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.text-field {
+  width: 100%;
+  margin: 10px 5px;
+  padding: 10px;
+  font-size: 18px;
+  font-variant: inherit;
+  outline: 0;
+  border: 1px solid #ff008e;
+}
 /*-------------------- footer css styles-------------------
 ---------------------------------------------------------- */
 
@@ -124,4 +150,7 @@ footer {
 }
 .fa-star {
   color: gold;
+}
+#contact {
+  margin-bottom: 50px;
 }
