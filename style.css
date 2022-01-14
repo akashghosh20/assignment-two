@@ -1,0 +1,41 @@
+/* -----------------------fonts from google ------------------------------
+-------------------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* --------------------------------common styles-----------------------------
+-------------------------------------------------------------------------- */
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------header part's css----------------------------------------
+ ---------------------------------------------------------------------------*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.navigation {
+  display: flex;
+}
+.navigation li {
+  list-style: none;
+  margin: 10px;
+}
+.navigation li a {
+  text-decoration: none;
+  color: rgb(201, 87, 87);
+  font-weight: 600px;
+  padding: 15px 10px;
+}
