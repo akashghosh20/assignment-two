@@ -66,12 +66,13 @@ nav {
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
+  margin: 0 auto;
 }
 .product {
   border: 1px solid rgb(245, 166, 166);
   box-shadow: rgba(128, 128, 128, 0.822);
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
 }
 .product img {
   width: 441px;
