@@ -13,6 +13,9 @@ body {
 
 /* ----------------header part's css----------------------------------------
  ---------------------------------------------------------------------------*/
+header {
+  margin-bottom: 50px;
+}
 
 nav {
   display: flex;
@@ -51,4 +54,15 @@ nav {
 }
 .section-two-right img {
   width: 70%;
+}
+/* ----------------------main section csss-----------------------
+--------------------------------------------------------------- */
+.product {
+  border: 1px solid rgb(245, 166, 166);
+  box-shadow: rgba(128, 128, 128, 0.822);
+}
+.products {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
 }
