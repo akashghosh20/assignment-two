@@ -69,11 +69,11 @@ main {
 }
 .products {
   display: grid;
-  grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
   justify-content: center;
   margin: 0 auto;
-  margin-left: 30px;
+  margin-left: 25px;
 }
 .product {
   border: 1px solid rgb(245, 166, 166);
