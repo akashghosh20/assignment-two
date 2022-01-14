@@ -32,6 +32,9 @@ body {
 .primary-button:hover {
   background-image: linear-gradient(45deg, red, green, blue);
 }
+.highlight {
+  color: #ff008e;
+}
 
 /* ----------------header part's css----------------------------------------
  ---------------------------------------------------------------------------*/
@@ -135,6 +138,12 @@ main {
   outline: 0;
   border: 1px solid #ff008e;
 }
+#contact {
+  margin-bottom: 50px;
+}
+.extra-comment {
+  text-align: center;
+}
 /*-------------------- footer css styles-------------------
 ---------------------------------------------------------- */
 
@@ -150,7 +159,4 @@ footer {
 }
 .fa-star {
   color: gold;
-}
-#contact {
-  margin-bottom: 50px;
 }
