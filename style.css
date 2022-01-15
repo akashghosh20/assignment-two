@@ -101,7 +101,10 @@ body {
   margin: 18px 8px;
   border-radius: 3px;
 }
-.products img {
+.products img:hover {
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out;
+  overflow: hidden;
 }
 .products h2 {
   color: #787885;
