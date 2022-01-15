@@ -124,6 +124,7 @@ body {
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
 }
 .extra-part-title {
   text-align: center;
@@ -159,7 +160,7 @@ body {
   background-image: linear-gradient(45deg, #a10d43, rgb(47, 89, 218), #a10d43);
 }
 footer {
-  background-color: #0a0826;
+  background-color: black;
   height: 200px;
 }
 .footer_part {
