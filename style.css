@@ -23,8 +23,6 @@ body {
   margin: 5px;
   cursor: pointer;
 }
-.navbar ul li a {
-}
 .slider {
   width: 95%;
   margin: 0 auto;
@@ -57,11 +55,15 @@ body {
   margin-bottom: 30px;
 }
 .bt_link {
-  background: #e02c6d;
+  background: #a10d43;
   text-decoration: none;
   color: white;
   padding: 8px 22px;
   border-radius: 41px;
+  text-transform: uppercase;
+}
+.bt_link:hover {
+  background-image: linear-gradient(45deg, #a10d43, rgb(47, 89, 218), #a10d43);
 }
 .brand {
   width: 95%;
@@ -112,18 +114,42 @@ body {
 .left_align_btn {
   float: right;
 }
-.feature {
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.extra-part-title {
+  text-align: center;
+}
+.contact-left img {
+  width: 80%;
+  margin-left: 20px;
+}
+.contact-right form {
   display: flex;
-  width: 86%;
-  margin: 0 auto;
-  padding: 60px;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
 }
-.feature_img {
-  float: left;
-  width: 55%;
+.text-field {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 18px;
+  font-variant: inherit;
+  outline: 0;
+  border: 1px solid #ff008e;
 }
-.feature_info {
-  width: 53%;
+.primary-button {
+  background: #a10d43;
+  text-decoration: none;
+  color: white;
+  padding: 8px 22px;
+  border-radius: 41px;
+  text-transform: uppercase;
+}
+.primary-button:hover {
+  background-image: linear-gradient(45deg, #a10d43, rgb(47, 89, 218), #a10d43);
 }
 footer {
   background-color: #0a0826;
