@@ -108,6 +108,7 @@ main {
 }
 .see-more {
   text-align: right;
+  display: inline-block;
 }
 .see-more a {
   text-decoration: none;
