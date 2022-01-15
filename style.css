@@ -103,6 +103,9 @@ main {
   width: 200px;
   margin-bottom: 25px;
 }
+.fa-star {
+  color: gold;
+}
 .product img {
   width: 200px;
 }
@@ -158,6 +161,6 @@ footer {
 .footer-icon a {
   margin: 5px;
 }
-.fa-star {
-  color: gold;
+.footer-icon .f {
+  color: rgb(223, 54, 209);
 }
