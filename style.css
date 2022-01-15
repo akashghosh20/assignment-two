@@ -134,8 +134,8 @@
     text-align: center;
   }
   .contact-left img {
-    width: 80%;
-    margin-left: 20px;
+    width: 64%;
+    margin-left: 95px;
   }
   .contact-right form {
     display: flex;
@@ -146,11 +146,12 @@
   .text-field {
     width: 100%;
     margin: 10px 0;
-    padding: 10px;
+    padding: 15px;
     font-size: 18px;
     font-variant: inherit;
     outline: 0;
-    border: 1px solid #ff008e;
+    border: 1px solid #767174;
+    border-radius: 10px;
   }
   .primary-button {
     background: #a10d43;

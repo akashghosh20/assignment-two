@@ -134,7 +134,39 @@
   .feature_img img {
     width: 70%;
   }
-  .feature_info {
+  .contact {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+    padding: 8px;
+  }
+  .extra-part-title {
+    text-align: center;
+  }
+  .contact-left img {
+    width: 65%;
+  }
+  .contact-right form {
+    padding: 20px;
+    width: 10px;
+  }
+  .text-field {
+    margin-bottom: 15px;
+    width: 230px;
+    padding: 11px;
+    border-radius: 5px;
+  }
+  .primary-button {
+    background: #a10d43;
+    text-decoration: none;
+    color: white;
+    padding: 8px 22px;
+    border-radius: 41px;
+    text-transform: uppercase;
+  }
+  .primary-button:hover {
+    background-image: linear-gradient(45deg, #a10d43, rgb(47, 89, 218), #a10d43);
   }
   footer {
     background-color: #0a0826;
