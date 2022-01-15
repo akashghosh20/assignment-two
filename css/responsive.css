@@ -1,0 +1,110 @@
+*{
+
+}
+@media screen and (max-width: 420px) {
+    body {
+        
+    }
+    .container{
+        background-color: gray;
+    }
+    .header{
+        width: 68%;
+    }
+    .fa-bars{
+    
+    }
+    .hrader h2{
+    
+    }
+    .navbar{
+        display: none;
+    }
+    .navbar ul{
+    
+    }
+    .navbar ul li{
+       
+    }
+    .navbar ul li a{
+    
+    }
+    .slider{
+        
+    }
+    .slider_info{
+    
+    }
+    .slider_info h1{
+        
+    }
+    .slider_img{
+       
+    }
+    .slider_img img{
+        
+    }
+    .slider_info p{
+        
+    }
+    .bt_link{
+        
+    }
+    .brand{
+       
+    }
+    .brand img{
+   
+    }
+    .collection{
+        
+    }
+    .clc_h1{
+       
+    }
+    .products{
+        
+    }
+    .products img{
+    
+    }
+    .products h2{
+       
+    }
+    .products h3{
+        
+    }
+    .rating{
+    
+    }
+    .products p{
+       
+    }
+    .fa-star{
+      
+    }
+    .left_align_btn{
+       
+    
+    }
+    .feature{
+      
+    }
+    .feature_img{
+       
+    }
+    .feature_info{
+       
+    }
+    footer{
+     
+    
+    }
+    .footer_part{
+    
+    }
+    .fab{
+        
+    }
+}
+
