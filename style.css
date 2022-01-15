@@ -1,175 +1,180 @@
-body {
-  font-family: "Poppins";
-  margin: 0;
-  padding: 0;
-}
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-.header {
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-.fa-bars {
-  display: none;
-}
-.navbar ul li {
-  float: left;
-  list-style-type: none;
-  padding: 8px;
-  margin: 5px;
-  cursor: pointer;
-}
-.slider {
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  height: 430px;
-  padding: 20px;
-}
-.slider_info {
-  width: 40%;
-}
-.slider_info h1 {
-  font-style: normal;
-  font-weight: 700px;
-  font-size: 41px;
-  line-height: 63px;
-}
-.slider_img {
-  background-image: url(img/Circle\ design.svg), url(#);
-  width: 52%;
-  background-position: 91px center;
-  background-repeat: no-repeat;
-  background-size: 68%;
-}
-.slider_img img {
-  width: 60%;
-  margin-left: 130px;
-}
-.slider_img img:hover {
-  transform: scale(1.3) rotate(15deg);
-  transition: transform 2s ease-in-out;
-}
-.slider_info p {
-  margin-bottom: 30px;
-}
-.bt_link {
-  background: #a10d43;
-  text-decoration: none;
-  color: white;
-  padding: 8px 22px;
-  border-radius: 41px;
-  text-transform: uppercase;
-}
-.bt_link:hover {
-  background-image: linear-gradient(45deg, #a10d43, rgb(47, 89, 218), #a10d43);
-}
-.brand {
-  width: 95%;
-  display: flex;
-  justify-content: center;
-  border-left: none;
-  border-right: none;
-  border-style: solid;
-  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
-  margin-bottom: 74px;
-}
-.brand img {
-  width: 8%;
-  padding: 10px;
-}
-.collection {
-  width: 96%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-.clc_h1 {
-  text-align: center;
-  color: #3a3a3a;
-}
-.products {
-  width: 26%;
-  box-shadow: 3px 3px 15px grey;
-  padding: 13px 28px;
-  margin: 18px 8px;
-  border-radius: 3px;
-}
-.products img:hover {
-  transform: scale(1.2);
-  transition: transform 2s ease-in-out;
-  overflow: hidden;
-}
-.products h2 {
-  color: #787885;
-}
-.products h3 {
-  color: #787885;
-}
-.products p {
-  color: #787885;
-}
-.fa-star {
-  color: orange;
-}
-.left_align_btn {
-  float: right;
-}
-.contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 20px;
-}
-.extra-part-title {
-  text-align: center;
-}
-.contact-left img {
-  width: 80%;
-  margin-left: 20px;
-}
-.contact-right form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-}
-.text-field {
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  font-size: 18px;
-  font-variant: inherit;
-  outline: 0;
-  border: 1px solid #ff008e;
-}
-.primary-button {
-  background: #a10d43;
-  text-decoration: none;
-  color: white;
-  padding: 8px 22px;
-  border-radius: 41px;
-  text-transform: uppercase;
-}
-.primary-button:hover {
-  background-image: linear-gradient(45deg, #a10d43, rgb(47, 89, 218), #a10d43);
-}
-footer {
-  background-color: black;
-  height: 200px;
-}
-.footer_part {
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-  padding: 15px;
-  line-height: 14px;
-}
-.fab {
-  font-size: 28px;
+@media only screen and (min-width: 980px) {
+  body {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fa-bars {
+    display: none;
+  }
+  #icon {
+    display: none;
+  }
+  .navbar ul li {
+    float: left;
+    list-style-type: none;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .slider {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 430px;
+    padding: 20px;
+  }
+  .slider_info {
+    width: 40%;
+  }
+  .slider_info h1 {
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 41px;
+    line-height: 63px;
+  }
+  .slider_img {
+    background-image: url(img/Circle\ design.svg), url(#);
+    width: 52%;
+    background-position: 91px center;
+    background-repeat: no-repeat;
+    background-size: 68%;
+  }
+  .slider_img img {
+    width: 60%;
+    margin-left: 130px;
+  }
+  .slider_img img:hover {
+    transform: scale(1.3) rotate(15deg);
+    transition: transform 2s ease-in-out;
+  }
+  .slider_info p {
+    margin-bottom: 30px;
+  }
+  .bt_link {
+    background: #a10d43;
+    text-decoration: none;
+    color: white;
+    padding: 8px 22px;
+    border-radius: 41px;
+    text-transform: uppercase;
+  }
+  .bt_link:hover {
+    background-image: linear-gradient(45deg, #a10d43, rgb(47, 89, 218), #a10d43);
+  }
+  .brand {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    border-left: none;
+    border-right: none;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+    margin-bottom: 74px;
+  }
+  .brand img {
+    width: 8%;
+    padding: 10px;
+  }
+  .collection {
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .clc_h1 {
+    text-align: center;
+    color: #3a3a3a;
+  }
+  .products {
+    width: 26%;
+    box-shadow: 3px 3px 15px grey;
+    padding: 13px 28px;
+    margin: 18px 8px;
+    border-radius: 3px;
+  }
+  .products img:hover {
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+    overflow: hidden;
+  }
+  .products h2 {
+    color: #787885;
+  }
+  .products h3 {
+    color: #787885;
+  }
+  .products p {
+    color: #787885;
+  }
+  .fa-star {
+    color: orange;
+  }
+  .left_align_btn {
+    float: right;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+  }
+  .extra-part-title {
+    text-align: center;
+  }
+  .contact-left img {
+    width: 80%;
+    margin-left: 20px;
+  }
+  .contact-right form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .text-field {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    font-variant: inherit;
+    outline: 0;
+    border: 1px solid #ff008e;
+  }
+  .primary-button {
+    background: #a10d43;
+    text-decoration: none;
+    color: white;
+    padding: 8px 22px;
+    border-radius: 41px;
+    text-transform: uppercase;
+  }
+  .primary-button:hover {
+    background-image: linear-gradient(45deg, #a10d43, rgb(47, 89, 218), #a10d43);
+  }
+  footer {
+    background-color: black;
+    height: 200px;
+  }
+  .footer_part {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    line-height: 14px;
+  }
+  .fab {
+    font-size: 28px;
+  }
 }

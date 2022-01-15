@@ -1,110 +1,155 @@
-*{
-
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: poppins;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-evenly;
+  }
+  .fa-bars {
+    float: left;
+    padding: 4px;
+    display: block;
+    width: 54px;
+  }
+  .fa-cart-plus {
+    float: right;
+    padding: 4px;
+    display: block;
+    width: 22px;
+  }
+  .header h2 {
+    font-size: 23px;
+    display: inline-block;
+    text-align: center;
+  }
+  .navbar {
+    display: none;
+  }
+  .navbar ul {
+  }
+  .navbar ul li {
+  }
+  .navbar ul li a {
+  }
+  .slider {
+    width: 100%;
+    display: flex;
+    flex-flow: column-reverse;
+    margin: 50px 0px;
+  }
+  .slider_info {
+  }
+  .slider_info h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .slider_img {
+    background-image: url(/img/Circledesign.svg), url(#);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 278px;
+  }
+  .slider_img img {
+    width: 83%;
+  }
+  .slider_info p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 28px;
+  }
+  .bt_link {
+    background: rgb(224, 44, 109);
+    text-decoration: none;
+    color: white;
+    padding: 9px 25px;
+    font-size: 14px;
+    border-radius: 41px;
+    text-align: center;
+    margin: 22%;
+    margin-top: 22%;
+    margin-right: 22%;
+    margin-bottom: 22%;
+    margin-left: 22%;
+  }
+  .brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .brand img {
+    width: 16%;
+    padding: 10px;
+  }
+  .collection {
+  }
+  .clc_h1 {
+    text-align: center;
+    margin-bottom: 34px;
+  }
+  .products {
+    width: 80%;
+    box-shadow: 3px 4px 10px grey;
+    padding: 15px 15px;
+    margin: 0 auto;
+    margin-bottom: 28px;
+    border-radius: 7px;
+  }
+  .products img {
+    width: 100%;
+    height: 78%;
+    margin: 0 auto;
+    border-radius: 7px;
+  }
+  .products h2 {
+  }
+  .products h3 {
+  }
+  .rating {
+    color: orange;
+  }
+  .products p {
+    color: #787885;
+  }
+  .fa-star {
+  }
+  .left_align_btn {
+  }
+  .feature {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .feature_img {
+  }
+  .feature_img img {
+    width: 70%;
+  }
+  .feature_info {
+  }
+  footer {
+    background-color: #0a0826;
+    height: 150px;
+    margin-top: 40px;
+  }
+  .footer_part {
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    line-height: 14px;
+  }
+  .fab {
+    font-size: 28px;
+  }
 }
-@media screen and (max-width: 420px) {
-    body {
-        
-    }
-    .container{
-        background-color: gray;
-    }
-    .header{
-        width: 68%;
-    }
-    .fa-bars{
-    
-    }
-    .hrader h2{
-    
-    }
-    .navbar{
-        display: none;
-    }
-    .navbar ul{
-    
-    }
-    .navbar ul li{
-       
-    }
-    .navbar ul li a{
-    
-    }
-    .slider{
-        
-    }
-    .slider_info{
-    
-    }
-    .slider_info h1{
-        
-    }
-    .slider_img{
-       
-    }
-    .slider_img img{
-        
-    }
-    .slider_info p{
-        
-    }
-    .bt_link{
-        
-    }
-    .brand{
-       
-    }
-    .brand img{
-   
-    }
-    .collection{
-        
-    }
-    .clc_h1{
-       
-    }
-    .products{
-        
-    }
-    .products img{
-    
-    }
-    .products h2{
-       
-    }
-    .products h3{
-        
-    }
-    .rating{
-    
-    }
-    .products p{
-       
-    }
-    .fa-star{
-      
-    }
-    .left_align_btn{
-       
-    
-    }
-    .feature{
-      
-    }
-    .feature_img{
-       
-    }
-    .feature_info{
-       
-    }
-    footer{
-     
-    
-    }
-    .footer_part{
-    
-    }
-    .fab{
-        
-    }
-}
-
