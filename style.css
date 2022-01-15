@@ -1,163 +1,141 @@
 body {
-    font-family: 'Poppins';
-    margin: 0;
-    padding: 0;
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
 }
-.container{
-    width: 90%;
-    margin:0 auto;
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
-.header{
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+.header {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
-.fa-bars{
-display: none;
+.fa-bars {
+  display: none;
 }
-.hrader h1{
-
+.navbar ul li {
+  float: left;
+  list-style-type: none;
+  padding: 8px;
+  margin: 5px;
+  cursor: pointer;
 }
-.navbar{
-
+.navbar ul li a {
 }
-.navbar ul{
-
+.slider {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 430px;
+  padding: 20px;
 }
-.navbar ul li{
-    float: left;
-    list-style-type: none;
-    padding: 8px;
-    margin: 5px;
-    cursor: pointer;
+.slider_info {
+  width: 40%;
 }
-.navbar ul li a{
-
+.slider_info h1 {
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 41px;
+  line-height: 63px;
 }
-.slider{
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    height: 430px;
-    padding: 20px;
+.slider_img {
+  background-image: url(img/Circle\ design.svg), url(#);
+  width: 52%;
+  background-position: 91px center;
+  background-repeat: no-repeat;
+  background-size: 68%;
 }
-.slider_info{
-width:40%;
+.slider_img img {
+  width: 60%;
+  margin-left: 130px;
 }
-.slider_info h1{
-    font-style: normal;
-    font-weight: 700px;
-    font-size: 41px;
-    line-height: 63px;
+.slider_info p {
+  margin-bottom: 30px;
 }
-.slider_img{
-    background-image: url(img/Circle\ design.svg), url(#);
-    width: 52%;
-    background-position: 91px center;
-    background-repeat: no-repeat;
-    background-size: 68%;
+.bt_link {
+  background: #e02c6d;
+  text-decoration: none;
+  color: white;
+  padding: 8px 22px;
+  border-radius: 41px;
 }
-.slider_img img{
-    width: 60%;
-    margin-left: 130px;
-
+.brand {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  border-left: none;
+  border-right: none;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+  margin-bottom: 74px;
 }
-.slider_info p{
-    margin-bottom: 30px;
+.brand img {
+  width: 8%;
+  padding: 10px;
 }
-.bt_link{
-    background: #E02C6D;
-    text-decoration: none;
-    color: white;
-    padding: 8px 22px;
-    border-radius: 41px;
+.collection {
+  width: 96%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
 }
-.brand{
-    width: 95%;
-    display: flex;
-    justify-content: center;
-    border-left: none;
-    border-right: none;
-    border-style: solid;
-    border-image: 
-    linear-gradient(
-      to bottom, 
-      red, 
-      rgba(0, 0, 0, 0)
-    ) 1 100%;
-    margin-bottom: 74px;
+.clc_h1 {
+  text-align: center;
+  color: #3a3a3a;
 }
-.brand img{
-width: 8%;
-padding: 10px;
+.products {
+  width: 26%;
+  box-shadow: 3px 3px 15px grey;
+  padding: 13px 28px;
+  margin: 18px 8px;
+  border-radius: 3px;
 }
-.collection{
-    width: 96%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
+.products img {
 }
-.clc_h1{
-    text-align: center;
-    color: #3A3A3A;
+.products h2 {
+  color: #787885;
 }
-.products{
-    width: 26%;
-    box-shadow: 3px 3px 15px grey;
-    padding: 13px 28px;
-    margin: 18px 8px;
-    border-radius: 3px;
+.products h3 {
+  color: #787885;
 }
-.products img{
-
+.products p {
+  color: #787885;
 }
-.products h2{
-    color: #787885;
+.fa-star {
+  color: orange;
 }
-.products h3{
-    color: #787885;
+.left_align_btn {
+  float: right;
 }
-.rating{
-
+.feature {
+  display: flex;
+  width: 86%;
+  margin: 0 auto;
+  padding: 60px;
 }
-.products p{
-    color: #787885;
+.feature_img {
+  float: left;
+  width: 55%;
 }
-.fa-star{
-    color: orange;
+.feature_info {
+  width: 53%;
 }
-.left_align_btn{
-    float: right;
-
+footer {
+  background-color: #0a0826;
+  height: 200px;
 }
-.feature{
-    display: flex;
-    width: 86%;
-    margin: 0 auto;
-    padding: 60px;
+.footer_part {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  line-height: 14px;
 }
-.feature_img{
-    float: left;
-    width: 55%;
-}
-.feature_info{
-    width: 53%;
-}
-footer{
-    background-color: #0A0826;
-    height: 200px;
-
-}
-.footer_part{
-margin: 0 auto;
-text-align: center;
-color: white;
-padding: 15px;
-line-height: 14px;
-}
-.fab{
-    font-size: 28px;
+.fab {
+  font-size: 28px;
 }
